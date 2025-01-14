@@ -1,4 +1,4 @@
-import { A80Logo } from '#/ui/a80-logo';
+import { SMLogo } from '#/ui/sm-logo';
 
 export default function Byline() {
   return (
@@ -8,7 +8,7 @@ export default function Byline() {
           <div className="text-sm text-gray-400">By</div>
           <a href="https://vercel.com" title="Vercel">
             <div className="w-16 text-gray-100 hover:text-gray-50">
-              <A80Logo />
+              <SMLogo />
             </div>
           </a>
         </div>
